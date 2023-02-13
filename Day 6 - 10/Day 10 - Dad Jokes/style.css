@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   height: 250px;
   background-color: #fff;
   border-radius: 3%;
@@ -27,6 +27,10 @@ p {
   opacity: 0.4;
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+.joke {
+  margin: 0 15px;
 }
 
 .btn {

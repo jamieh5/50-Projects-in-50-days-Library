@@ -39,9 +39,7 @@ p {
   border-radius: 5%;
   background-color: rgb(70, 0, 70);
   border: 0;
-  position: absolute;
-  top: 55%;
-  left: 46%;
+  margin-top: 25px;
   color: white;
 }
 

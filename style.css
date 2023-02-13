@@ -27,8 +27,8 @@ div {
 
 .container {
   margin: 30px;
-  height: 300px;
-  width: 175px;
+  height: 400px;
+  width: 250px;
   border: 3px solid darkgray;
 }
 .container h2 {
@@ -38,7 +38,7 @@ div {
   margin: 0;
 }
 .img {
-  height: 220px;
+  height: 300px;
   width: 100%;
   margin: 0;
   position: relative;

@@ -6,7 +6,8 @@ body {
 div {
   display: inline-block;
 }
-.main-container {
+.container1-5,
+.container6-10 {
   display: flex;
   justify-content: center;
 }

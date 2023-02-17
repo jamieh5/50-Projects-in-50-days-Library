@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 body {
-<<<<<<< HEAD
-=======
   background-color: #686de0;
->>>>>>> 1bcf7609e3ec6c11de74ea67b2d7752712c149bb
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,8 +14,6 @@ body {
   overflow: hidden;
   margin: 0;
 }
-<<<<<<< HEAD
-=======
 
 .container {
   width: 600px;
@@ -51,4 +46,3 @@ p {
 .btn:active {
   transform: scale(0.97);
 }
->>>>>>> 1bcf7609e3ec6c11de74ea67b2d7752712c149bb

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 body {
+<<<<<<< HEAD
+=======
+  background-color: #686de0;
+>>>>>>> 1bcf7609e3ec6c11de74ea67b2d7752712c149bb
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,3 +17,38 @@ body {
   overflow: hidden;
   margin: 0;
 }
+<<<<<<< HEAD
+=======
+
+.container {
+  width: 600px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 3%;
+  text-align: center;
+}
+
+p {
+  opacity: 0.4;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.joke {
+  margin: 0 15px;
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 5%;
+  background-color: rgb(70, 0, 70);
+  border: 0;
+  margin-top: 25px;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+>>>>>>> 1bcf7609e3ec6c11de74ea67b2d7752712c149bb

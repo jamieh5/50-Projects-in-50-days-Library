@@ -7,7 +7,8 @@ div {
   display: inline-block;
 }
 .container1-5,
-.container6-10 {
+.container6-10,
+.container11-15 {
   display: flex;
   justify-content: center;
 }
@@ -58,7 +59,7 @@ a {
 }
 .container:hover {
   border: 3px solid rgb(48, 48, 48);
-  transform: scale(0.96);
+  transform: scale(0.99);
 }
 
 .container:hover h2 {

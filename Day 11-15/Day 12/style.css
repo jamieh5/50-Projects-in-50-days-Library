@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+.question {
+  width: 500px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 25px auto;
+  display: block;
+  transition: 0.5s height ease;
+  background-color: white;
+}
+
+.icon {
+  font-size: 24px;
+  float: right;
+  margin: 0 30px;
+  border: 0;
+  background: none;
+}
+
+h2 {
+  margin: 0 30px;
+}
+
+h2,
+.icon {
+  line-height: 100px;
+  transition: 0.5s line-height ease;
+}
+
+p {
+  margin-left: 25px;
+  opacity: 0;
+  transition: opacity 1.2s ease-out;
+}
+
+.active {
+  height: 150px;
+  transition: height 1s ease;
+}
+
+.active p {
+  opacity: 1;
+}

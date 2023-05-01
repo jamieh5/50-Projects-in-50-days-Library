@@ -1,6 +1,5 @@
 const textArea = document.querySelector('.input-field')
 const btn = document.querySelector('button')
-const containerChoices = document.querySelector('.container-choices')
 
 let words = []
 

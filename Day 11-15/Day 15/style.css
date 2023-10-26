@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8e44ad;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socials > i {
+  font-size: 60px;
+}
+
+.socials > div,
+.socials > span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Swap', sans-serif;
+}
+
+.socials > i,
+.socials > span {
+  margin: 10px;
+}

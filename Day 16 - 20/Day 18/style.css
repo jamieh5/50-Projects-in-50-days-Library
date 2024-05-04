@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: none;
+}
+
+.btn:active i {
+  font-size: 30px;
+}
+
+i {
+  font-size: 40px;
+  color: white;
+}
+.main {
+  width: 80%;
+  height: 800px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main .prev,
+.main .next {
+  transition: background-image 0.5s ease;
+}
